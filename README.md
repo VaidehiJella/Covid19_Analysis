@@ -8,6 +8,8 @@ Public health authorities and researchers need a clear, data driven picture of h
 
 
 Objectives
+
+
 •	Aggregate worldwide time series data (confirmed, deaths, recovered) into a tidy, country level format.
 •	Visualise pandemic growth, recoveries, and mortality with intuitive charts (line plots, stacked areas, heatmaps).
 •	Compare the trajectories of selected countries side by side.
@@ -17,6 +19,8 @@ Objectives
 
 
 Requirements
+
+
 •	Johns Hopkins University CSSE time series (confirmed, deaths, recovered) in CSV format.
 •	Python 3.7 +, 2 GB RAM minimum.
 •	pandas, numpy, matplotlib, seaborn (all installable via pip).
@@ -27,6 +31,8 @@ Requirements
 	
 	
 Tools Used
+
+
 •	Python 3.x – data wrangling & scripting
 •	Pandas + NumPy – tabular manipulation & aggregation
 •	Matplotlib – publication quality plotting
@@ -72,7 +78,9 @@ Combine your findings, visuals, and exported data into a presentable format such
  
 Expected Output
 •	Notebook / Script that runs end to end with zero errors.
+
 •	Four publication ready plots:
+
 1.	Global Cumulative COVID 19 Cases (line plot)
 2.	Country wise Confirmed Cases Comparison (line plot)
 3.	Stacked Area Chart of Global Cases
